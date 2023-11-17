@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.conteiner {
+  height: 200px;
+  background-color: cornsilk;
+  width: 200px;
+  border: 2px solid black;
+  display: flex;
+}
+.caja {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+.rojo {
+  background-color: red;
+}
+.verde {
+  background-color: darkolivegreen;
+}
+.azul {
+  background-color: dodgerblue;
+}
+.fd-row {
+  flex-direction: row;
+}
+.fd-column {
+  flex-direction: column;
+}
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+.fw-wrap {
+  flex-wrap: wrap;
+}
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
